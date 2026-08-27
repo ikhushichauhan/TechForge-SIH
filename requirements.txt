@@ -1,0 +1,17 @@
+numpy
+pandas
+xarray
+netCDF4
+cdsapi
+pythermalcomfort
+geopandas
+shapely
+pyproj
+fiona
+streamlit
+folium
+plotly
+matplotlib
+cfgrib
+eccodes
+pvlib
