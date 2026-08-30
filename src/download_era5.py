@@ -8,13 +8,15 @@ request = {
         "10m_v_component_of_wind",
         "2m_dewpoint_temperature",
         "2m_temperature",
+        "surface_net_solar_radiation",
+        "surface_net_thermal_radiation",
         "surface_solar_radiation_downwards",
-        "surface_thermal_radiation_downwards"
+        "surface_thermal_radiation_downwards",
+        "total_sky_direct_solar_radiation_at_surface"
     ],
     "year": [
-        "2020", "2021", "2022",
-        "2023", "2024", "2025",
-        "2026"
+        "2021", "2022", "2023",
+        "2024", "2025", "2026"
     ],
     "month": ["04", "05", "06"],
     "day": [
@@ -46,4 +48,4 @@ request = {
 }
 
 client = cdsapi.Client()
-client.retrieve(dataset, request,"era5_test.nc")
+client.retrieve(dataset, request,"era5_test.grib")
