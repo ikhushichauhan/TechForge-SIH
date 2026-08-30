@@ -26,3 +26,5 @@ Thumbs.db
 
 # Logs
 *.log
+data/processed/ward_thermal_daily.csv
+data/processed/ward_thermal_daily.geojson
