@@ -36,7 +36,7 @@ TIER_ICONS = {"LOW": "🟢", "MODERATE": "🟡", "HIGH": "🟠", "CRITICAL": "�
 
 @st.cache_data
 def load_data():
-    wards_static = gpd.read_file("data/processed/final_wards_static.geojson")
+    wards_static = gpd.read_file("data/spatial/final_wards_static.geojson")
     daily = pd.read_csv("data/processed/final_ward_daily.csv", parse_dates=["date"])
     return wards_static, daily
 
