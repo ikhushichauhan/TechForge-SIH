@@ -1,4 +1,4 @@
-# 🌡️ Heat-Health Early Warning & Human Thermal Stress Index
+#  Heat-Health Early Warning & Human Thermal Stress Index
 
 ### PS 26083 — Extreme Heatwave Early Warning and Human Thermal Stress Index
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Extreme heat does not affect every location equally.
 
@@ -22,7 +22,7 @@ The system is designed to support municipal corporations, disaster-management au
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 **Problem Statement ID:** 26083
 
@@ -40,7 +40,7 @@ towards:
 
 ---
 
-## 💡 Our Core Idea
+##  Our Core Idea
 
 Our prototype introduces a cumulative thermal-burden workflow built around three key components:
 
@@ -93,7 +93,7 @@ They are **not treated as scientifically validated physiological constants**. Se
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
                  HISTORICAL WEATHER
@@ -150,7 +150,7 @@ They are **not treated as scientifically validated physiological constants**. Se
 
 ---
 
-## 🧮 Methodology
+##  Methodology
 
 ### 1. Historical Weather Data
 
@@ -269,7 +269,7 @@ This allows repeated heat exposure to be represented rather than treating every 
 
 ---
 
-## 🗺️ Spatial Enrichment
+##  Spatial Enrichment
 
 ERA5 meteorological grids are spatially coarser than individual administrative wards.
 
@@ -295,7 +295,7 @@ The system does not represent a spatial grid as a ward.
 
 ---
 
-## 👥 Vulnerability
+##  Vulnerability
 
 The same thermal exposure can produce different levels of risk in different populations.
 
@@ -311,7 +311,7 @@ Only features supported by reliable data are included in the prototype.
 
 ---
 
-## 🏥 Response Capacity
+##  Response Capacity
 
 Thermal exposure alone does not determine intervention priority.
 
@@ -329,7 +329,7 @@ These indicators are initially kept separate rather than being combined using ar
 
 ---
 
-## 🚨 Prototype Priority Engine
+##  Prototype Priority Engine
 
 The current one-week prototype does **not** claim to predict mortality percentages without real health outcome labels.
 
@@ -363,7 +363,7 @@ The exact thresholds are documented and designed to remain transparent.
 
 ---
 
-## 💡 Action Recommendation Engine
+##  Action Recommendation Engine
 
 The system translates priority into potential intervention categories.
 
@@ -400,7 +400,7 @@ Recommendations are intended as **decision-support guidance** and should be alig
 
 ---
 
-## 🖥️ GIS Dashboard
+##  GIS Dashboard
 
 The prototype dashboard is built using **Streamlit**.
 
@@ -436,7 +436,7 @@ The dashboard is intended to demonstrate how thermal-burden information can be c
 
 ---
 
-## 🤖 Future AI/ML Extension
+##  Future AI/ML Extension
 
 Real health-impact prediction requires reliable historical health outcome data.
 
@@ -480,7 +480,7 @@ These outputs will only be presented as SHAP explanations after an actual traine
 
 ---
 
-## 🌦️ Future 3–5 Day Forecasting
+##  Future 3–5 Day Forecasting
 
 The current prototype primarily demonstrates the historical thermal-burden pipeline.
 
@@ -512,7 +512,7 @@ Forecast uncertainty can additionally be estimated using forecast-error statisti
 
 ---
 
-## 🔔 Future Alert Layer
+##  Future Alert Layer
 
 The production architecture can connect high-priority results to:
 
@@ -548,7 +548,7 @@ CTBI
 Real Graphs
 ```
 
-### 🟡 PROTOTYPE
+###  PROTOTYPE
 
 Decision-support components:
 
@@ -566,7 +566,7 @@ Action Recommendations
 GIS Dashboard
 ```
 
-### 🔵 FUTURE / PRODUCTION
+###  FUTURE / PRODUCTION
 
 Components requiring additional real-world data/infrastructure:
 
@@ -590,7 +590,7 @@ Automated Alerts
 
 ---
 
-## 🧰 Technology Stack
+##  Technology Stack
 
 ### Data & Scientific Computing
 
@@ -630,7 +630,7 @@ Automated Alerts
 
 ---
 
-## 📂 Suggested Repository Structure
+##  Suggested Repository Structure
 
 ```text
 heat-health-early-warning/
@@ -671,7 +671,7 @@ heat-health-early-warning/
 
 ---
 
-## 🔄 Development Workflow
+##  Development Workflow
 
 The project is developed using parallel workstreams with controlled handoffs.
 
@@ -713,7 +713,7 @@ Team members develop locally in VS Code/Colab and push stable outputs to GitHub.
 
 ---
 
-## 🧪 Validation Strategy
+##  Validation Strategy
 
 The current prototype focuses on validating the computational pipeline and logical behavior.
 
@@ -762,7 +762,7 @@ will be considered.
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 The current prototype does not claim:
 
@@ -779,7 +779,7 @@ These limitations are intentionally documented to maintain scientific and techni
 
 ---
 
-## 🌟 What Is Novel About This Approach?
+##  What Is Novel About This Approach?
 
 We are **not** claiming to have invented UTCI, nighttime heat stress, or heatwave alerts.
 
@@ -811,7 +811,7 @@ to:
 
 ---
 
-## 🎯 Current Prototype Goal
+##  Current Prototype Goal
 
 The immediate objective is to demonstrate a working proof-of-concept using real historical weather data.
 
@@ -861,13 +861,13 @@ Demo Story
 
 ---
 
-## 🏆 One-Sentence Pitch
+##  One-Sentence Pitch
 
 > **We transform real weather data into human thermal stress, quantify persistent nighttime and multi-day heat burden, identify vulnerable and low-response areas, and translate those insights into actionable heat-health priorities.**
 
 ---
 
-## 👥 Team
+##  Team
 
 **Dev** — AI/ML & Thermal Science Pipeline
 **Khushi** — AI/ML Support, Risk & Action Logic
@@ -878,7 +878,7 @@ Demo Story
 
 ---
 
-## 📜 Disclaimer
+##  Disclaimer
 
 This project is a prototype developed for the **PS 26083 — Extreme Heatwave Early Warning and Human Thermal Stress Index** problem statement.
 
@@ -886,7 +886,7 @@ The current prototype is intended for research, demonstration, and decision-supp
 
 ---
 
-## 🚀 Future Vision
+##  Future Vision
 
 ```text
 ONE CITY
