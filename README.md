@@ -1,6 +1,6 @@
 #  Heat-Health Early Warning & Human Thermal Stress Index
 
-### PS 26083 — Extreme Heatwave Early Warning and Human Thermal Stress Index
+### PS 26083 - Extreme Heatwave Early Warning and Human Thermal Stress Index
 
 > **From predicting how hot it will be → understanding cumulative human heat burden → identifying vulnerable areas → prioritizing action.**
 
